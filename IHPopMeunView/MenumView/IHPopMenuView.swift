@@ -74,9 +74,9 @@ class IHPopMenuView: UIView, UITableViewDelegate, UITableViewDataSource {
         let table_x = width - MenuConstant.width - MenuConstant.cellPadding
         var table_y = triangleView.frame.maxY
         if isExceed {
-            table_y = triangle_y - list_height
+            table_y = triangle_y - list_height + 1
         }
-        let listView = UITableView(frame: CGRect(x: table_x, y: table_y, width: MenuConstant.width, height: MenuConstant.cellHeight*CGFloat(dataList.count)))
+        let listView = UITableView(frame: CGRect(x: table_x, y: table_y, width: MenuConstant.width, height: MenuConstant.cellHeight*CGFloat(dataList.count) - 1))
         listView.backgroundColor = themClolr
         listView.delegate = self
         listView.dataSource = self

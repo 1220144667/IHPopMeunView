@@ -78,8 +78,8 @@
 		72417DFF287D9F6900FA6A3D /* MenumView */ = {
 			isa = PBXGroup;
 			children = (
-				72417E00287D9F6900FA6A3D /* IHPopMenuData.swift */,
 				72417E01287D9F6900FA6A3D /* IHPopMenuView.swift */,
+				72417E00287D9F6900FA6A3D /* IHPopMenuData.swift */,
 			);
 			path = MenumView;
 			sourceTree = SOURCE_ROOT;
